@@ -89,6 +89,10 @@
      <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+     <Compile Include="Assets\SkyMaster\Scripts\V2.0 Scripts\Filters\Editor\ColorCorrectionCurvesEditorSM.cs" />
+     <Compile Include="Assets\SkyMaster\Scripts\V2.1 Scripts\Filters\Bloom\Editor\BloomEditorSkyMaster.cs" />
+     <Compile Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Editor\SkyMasterInspector.cs" />
+     <Compile Include="Assets\SkyMaster\Scripts\V3.0 Scripts\Water\Editor\CreatePlaneSM.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -175,6 +179,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1FE4DDC8-4C4D-ED58-E012-B959FCB8910D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{1C021A4D-9078-F555-4B16-B2CA4B9C1882}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
